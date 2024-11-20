@@ -21,7 +21,7 @@ const [Counter, setCounter] = useState(0);
     <>
       <h1>Counting Web App</h1>
 
-      <h2>Your Current Value is:  {Counter}</h2> 
+      <h2>  {Counter}</h2> 
        
       <button onClick={InCreaseTheValue}>Increase The Value </button>
       <button onClick={DeCreaseTheValue}>Decrease The Value </button>
